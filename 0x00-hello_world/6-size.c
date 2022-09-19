@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * main - Entry point
  *
  * Return: Always 0
  */
@@ -9,9 +9,9 @@ int main(void)
 {
 	int a;
 	long int b;
-	long long int;
+	long long int c;
 	char d;
-	float;
+	float f;
 
 	printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));

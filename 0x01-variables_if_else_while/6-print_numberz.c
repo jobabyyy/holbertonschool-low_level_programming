@@ -1,5 +1,5 @@
-#incldue <stdio.h>
-#incldue <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point

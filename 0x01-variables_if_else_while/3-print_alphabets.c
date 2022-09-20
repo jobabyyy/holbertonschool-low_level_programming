@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Description: 'lowercase to uppercase using puchat'
+ *
  * return: 0 (Success)
  */
 int main(void)

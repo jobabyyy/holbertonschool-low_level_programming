@@ -10,6 +10,7 @@
 int main(void)
 {
 	int hi;
+
 	for (hi = '0'; hi <= '9'; hi++)
 		putchar(hi);
 	putchar('\n');

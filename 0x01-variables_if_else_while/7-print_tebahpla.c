@@ -2,13 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
- *
- * Description - 'Alphabet to be converted to lower case and reverse'
+ * main - Lower case alphabet in reverse
  *
  * Return - Always 0 (Success)
  */
-int void main()
+int main(void)
 {
 	char a = 'z';
 

@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- *
- * Description: 'lowercase to uppercase using puchat'
+ * main - 'lowercase to uppercase'
  *
  * return: Always 0 (Success)
  */

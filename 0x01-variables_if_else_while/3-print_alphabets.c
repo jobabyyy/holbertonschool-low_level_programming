@@ -7,9 +7,21 @@
  */
 int main(void)
 { 
-	char alphabet;
+	char alphabet = 'a';
+	while (a <= 'z')
+	{
+		putchar(alphabet);
+		a++;
+	}
+	
+	alphabet = 'A';
 
-	for (alphabet = 'A'; alphabet <= 'Z' ; alphabet++)
-	putchar (alphabet);
+	while (alphabet <= 'Z')
+	{
+		putchar(alphabet);
+		a++;
+	}
+	
 	putchar('\n');
 	return (0);
+}

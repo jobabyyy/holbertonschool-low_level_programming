@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
  * main - Lower case alphabet in reverse
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

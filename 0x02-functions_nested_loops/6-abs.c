@@ -5,7 +5,7 @@
  * _abs - value absolute
  *
  * @n: to print int
- * Retturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int _abs(int n)

@@ -4,7 +4,7 @@
  *
  * Return: 1 if c is lowercase, 0 if otherwise
  */
-int 3_islower(int b)
+int _islower(int c)
 {
-	return (b >= 'a' && b <= 'z');
+	return (c >= 'a' && c <= 'z');
 }

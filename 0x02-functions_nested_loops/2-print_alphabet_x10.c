@@ -1,19 +1,25 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - use _putchar to print in 
+ * print_alphabet_x10 - use _putchar to print in
  * lowercase 10xs
- * Return: Nothing.
+ * Return: Always 0 (Success)
  *
  */
 void print_alphabet_x10(void)
 {
-	char o;
+	int o
 	int l;
 
-	for (l = 0; o < 10; l++)
+	l = 0;
+	while (l < 10)
 	{
-		for (o = 'a'; o <= 'z'; o++)
-			_putchar(o);
-		_putchar('\n');
+	for (o = 'a' ; o <= 'z'; o++)
 	}
+	_putchar(o);
+}
+
+l++;
+_putchar('\n');
+}
+
 }

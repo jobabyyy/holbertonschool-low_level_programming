@@ -17,11 +17,10 @@ if (n < 0)
 last_digit = (-1 * (n % 10));
 _putchar (last_digit + '0');
 return (last_digit);
-	}
+}
 
 else
-:x
-
+{
 last_digit = (n % 10);
 _putchar (last_digit + '0');
 return (last_digit);

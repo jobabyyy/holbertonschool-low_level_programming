@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isupper - returns 1 and c if uppercase
  *

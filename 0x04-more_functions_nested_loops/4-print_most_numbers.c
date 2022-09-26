@@ -10,7 +10,7 @@ void print_most_numbers(void)
 
 	for (a = 0; a <= 9; a++)
 	{
-		if (a == '2' && a == '4')
+		if (a == 2 || a == 4)
 		{
 			continue;
 		}
@@ -18,6 +18,6 @@ void print_most_numbers(void)
 		{
 			_putchar(a + 48);
 		}
-			_putchar('\n');
 	}
+	_putchar('\n');
 }

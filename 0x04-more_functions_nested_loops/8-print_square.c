@@ -3,7 +3,7 @@
 /**
  * print_square - print soild square to screen using #
  *
- * @size: Variable 
+ * @size: Variable
  *
  * Return: solid square
  */

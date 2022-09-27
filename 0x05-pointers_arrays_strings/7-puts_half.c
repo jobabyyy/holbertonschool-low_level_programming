@@ -2,7 +2,7 @@
 
 /**
  * puts_half - print half a string.
- * 
+ *
  * @str: int
  *
  * Return: always 0.

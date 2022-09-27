@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _puts - print string followed by 
+ * _puts - print string followed by
  * newline to stdout.
+ *
+ * @str: int
  *
  * Return: Always 0.
  */

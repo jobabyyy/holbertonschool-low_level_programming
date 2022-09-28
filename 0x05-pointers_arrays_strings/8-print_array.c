@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array - print array of n 
+ * print_array - print array of n
  *
  * @a: int1
  * @n: int2
@@ -16,7 +16,7 @@ void print_array(int *a, int n)
 
 	for (n--; n >= 0; n--, i++)
 	{
-		printf("%d", a [i]);
+		printf("%d", a[i]);
 		if (n > 0)
 		{
 			printf(",");

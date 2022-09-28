@@ -2,7 +2,7 @@
 /**
  * *_strcpy - copy string pointed to by src
  * @dest: var1
- * @scr: var2
+ * @src: var2
  * Return: 0
  */
 char *_strcpy(char *dest, char *src)

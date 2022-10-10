@@ -11,7 +11,10 @@
 void _puts_recursion(char *s)
 {
 	if (*s == '\0') /*base case*/
+	{
+		_putchar('\n'); /*print until new line*/
 		return;
-	printf("%c", *s);
-	++s;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }

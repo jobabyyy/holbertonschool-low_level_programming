@@ -6,16 +6,16 @@
  * square root of a num.
  *
  * @n: sqrt
- *
- * Return 0.
+ * @i: int
+ * Return: 0.
  */
-int helper_sqrt(int n, int i)
+int helper_sqrt(int n, int i);
 
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return(helper_sqrt(n, 0));
+	return (helper_sqrt(n, 0));
 }
 
 /**

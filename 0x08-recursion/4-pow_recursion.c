@@ -5,7 +5,7 @@
  * @x: int1
  * @y: int2
  *
- * Return 0.
+ * Return: 0.
  */
 int _pow_recursion(int x, int y)
 {

@@ -10,14 +10,31 @@
  */
 int is_prime_number(int n)
 {
-	int i;
+	int count = 0;
 
-	for (i = 2; i < n; i++)
+	for (int i = 2; i <= n / 2; i++)
 	{
-		if (n % i == 0)
+		if(n % i == 0)
 		{
-			return (0);
+			count = 1;
+			break;
 		}
 	}
-	return (1);
+	if (n == 1)
+		count = 1;
+	return (count);
+}
+
+int main()
+{
+	int n ;
+
+	printf("Enter number: ");
+	scanf("%d", %n);
+
+	if (is_prime_number(n) == 0)
+		printf("%d is a prime number." n);
+	else
+		printf("%d is not a prime number." n);
+	return (0);
 }

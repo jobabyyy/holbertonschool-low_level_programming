@@ -9,12 +9,9 @@
  *
  * Return: 0.
  */
-int main(int args, char *argv[])
+int main(int argc,char* argv[])
 {
-	int i = 0;
-
-	for (i = 0; i < args; i++)
-		printf("\n%s", argv[i]);
-
-	return (0);
+    if (argv[0])
+	    printf("%d\n", argc -1);
+    return (0);
 }

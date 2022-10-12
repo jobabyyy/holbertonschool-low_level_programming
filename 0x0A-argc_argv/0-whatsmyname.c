@@ -4,15 +4,14 @@
 /**
  * main - program that prints num of arguements passed.
  *
- * @argc: arg
+ * @argc: counter
  * @argv: argument passed.
  *
  * Return: 0.
  */
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
-	printf("mynameis\n");
-	(void)argc;
+	if (argc > 0)
+		printf("%s\n", argv[0]);
 	return (0);
-
 }

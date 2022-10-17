@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * *_strncat - concatenate 2 strings but do
  * not include null.

@@ -43,4 +43,12 @@ char *_strstr(char *haystack, char *needle);
 
 int _atoi(char *s);
 
+void *malloc_checked(unsigned int b);
+
+char *string_nconcat(char *s, char *s2, unsigned int n);
+
+void *_calloc(unsigned int nmemb, unsigned int size);
+
+int *array_range(int min, int max);
+
 #endif

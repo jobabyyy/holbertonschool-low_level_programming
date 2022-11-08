@@ -6,18 +6,18 @@
  *
  * Return: NULL or HEAD.
  */
-void free_listint2(listint_t **head);
+void free_listint2(listint_t **head)
 {
 	listint_t *temp;
 
-	if (!head)
+	if (!(head))
 	{
 		return;
 	}
 	while (*head)
 	{
 		temp = (*head)->next;
-		free(*head)
+		free(*head);
 		*head = temp;
 	}
 	head = NULL;

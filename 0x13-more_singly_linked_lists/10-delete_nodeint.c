@@ -4,7 +4,7 @@
  * delete_nodeint_at_index - function that removes node at index
  * @head: pointer
  * @index: placement of new node.
- * 
+ *
  * Return: -1 if failed, 1 otherwise.
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
@@ -28,7 +28,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 		nNode = nNode->next;
 	}
-	
+
 	temp = nNode->next;
 	nNode->next = temp->next;
 	free(temp);

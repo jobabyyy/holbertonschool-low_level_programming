@@ -1,16 +1,29 @@
+#include "main.h"
+#include <stdlib.h>
 
+/**
+ * read_textfile - function that reads a text file and prints to the posix standard output.
+ * @filename: pointer
+ * @letters: letters to be read.
+ *
+ * Return: NULL if fail. Value of letters otherwise.
+ */
 
-size_t read_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fileDesc;
 	char *Buff;
-	size_t readResult, wr;
+	ssize_t readResult, wr;
 
 	if (filename == NULL)
 		return (0);
+
+
 	fileDesc = open(filename, O_RDONLY);
-	if (fileDesc < 0)
+	if (fileDesc == -1)
 		return (0);
+
+
 	Buff = malloc(letters);
 	if (Buff == NULL)
 	{

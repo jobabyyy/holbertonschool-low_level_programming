@@ -3,7 +3,6 @@
 /**
  * _strlen - find length of string
  * @str: string
-
  * Return: length
  */
 int _strlen(char *str)
@@ -20,7 +19,6 @@ int _strlen(char *str)
  * append_text_to_file - append text and only if file exists
  * @filename: file
  * @text_content: appends this content into file
-
  * Return: 1 if success, -1 if fail
  */
 int append_text_to_file(const char *filename, char *text_content)

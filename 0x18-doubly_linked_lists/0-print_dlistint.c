@@ -11,15 +11,11 @@ size_t print_dlistint(const dlistint_t *h)
 {
 	size_t NodeCounter = 0;
 
-	while (h)
+	while (h) 			 /** while h is true */
 	{
-		if (!(h->str))
-		{
-			printf("%d, %s\n", h->len, h->str);
-
-		}
-		NodeCounter++;
-		h = h->next;
+		printf("%d\n", h->n);   /** print num w/new line, h is pointing to node */
+		NodeCounter++;		/** increase to next */
+		h = h->next;		/** head = to head pointing to next node */
 	}
-	return (NodeCounter);
+	return (NodeCounter);		/** return the number of elements in node */
 }

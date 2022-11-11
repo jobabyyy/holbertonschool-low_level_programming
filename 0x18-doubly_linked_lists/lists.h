@@ -30,7 +30,7 @@ typedef struct dlistint_s
 /** PROTOTYPES TO BE USED IN THIS PROJECT: */
 
 
-size_t print_dlistint(const dlistlin_t *h);
+size_t print_dlistint(const dlistlint_t *h);
 
 size_t dlistint_len(const dlistint_t *h);
 

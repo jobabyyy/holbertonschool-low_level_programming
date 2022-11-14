@@ -2,7 +2,7 @@
 
 /**
  * add_dnodeint_end - add new node at end of dlistint_t list.
- * @h: starting head pointer
+ * @head: starting head pointer
  * @n: integer
  *
  * Return: new element of NULL if failed.

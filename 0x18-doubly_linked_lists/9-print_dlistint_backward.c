@@ -23,7 +23,7 @@ size_t print_dlistint_backward(const dlistint_t *h)
 	}
 
 	newNode = nodeCounter;
-	for (; nodeCounter > 0; newNode--)
+	for (; nodeCounter > 0; nodeCounter--)
 	{
 		printf("%d\n", h->n);
 		h = h->prev;

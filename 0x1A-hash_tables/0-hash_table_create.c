@@ -9,11 +9,29 @@
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	hash_table_t sizeArray = 0;
+	hash_table_t *newHashT;
+	unsigned long int i;
 
-	int arraySize = sizeof(sizeArray);
+	if (size == 0)
+		return (NULL);
+	
+	newHashT = malloc(sizeof(hash_table_t));
+	
+	if (newHashT == NULL)
+		return (NULL);
+	
+	newHashT->size = size;
+	
+	newHashT->array = malloc(sizeof(hash_node_t *) * size);
+	if (newHashT->array == NULL)
+	{
+		free(newHashT);
+		return (NULL);
+	}
+	for (i = 0; i < size; i++)
+	{
+		newHashT->array[i] = NULL;
+	}
 
-	printf("arraySize = %d bytes.\n", sizeArray);
-
-	return (NULL);
+	return (newHashT);
 }

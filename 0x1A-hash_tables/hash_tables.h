@@ -1,6 +1,14 @@
 #ifndef GAS_OR_HASH
 #define GAS_OR_HASH
 
+/** includes.... */
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
 /**
  * struct hash_node_s - Node of a hash table
  *

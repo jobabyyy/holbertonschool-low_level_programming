@@ -21,14 +21,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	return (0);
 
 	value_copy = strdup(value);
-	if(value_copy == NULL)
+	if (value_copy == NULL)
 		return (0);
 	index = key_index((const unsigned char *)key, ht->size);
 	for (i = index; ht->array[i]; i++)
 	{
-		if (strcmp (ht-> array[i]->key, key) == 0)
+		if (strcmp(ht->array[i]->key, key) == 0)
 		{
-			free(ht-> array[i]->value);
+			free(ht->array[i]->value);
 			ht->array[i]->value = value_copy;
 		}
 	}

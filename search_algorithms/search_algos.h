@@ -10,19 +10,19 @@
 /**
  * struct skiplist_s - Singly linked list w/ express lane
  * @n: int
- * @index: index of node in list 
+ * @index: index of node in list
  * @next: pointer to next node in list
  * @express: pointer to next node in express lane
  *
  * Description: struct defines node in skip list data structure.
- * A linked list designed for efficient search operations.
+ *              A linked list designed for efficient search operations.
  */
 typedef struct skiplist_s
 {
-    int n;
-    size_t index;
-    struct skiplist_s *next;
-    struct skiplist_s *express;
+	int n;
+	size_t index;
+	struct skiplist_s *next;
+	struct skiplist_s *express;
 } skiplist_t;
 
 /* Prototypes */
